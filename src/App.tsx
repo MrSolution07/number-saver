@@ -203,10 +203,7 @@ export default function App() {
         </AnimatePresence>
       </main>
 
-      <Footer
-        darkMode={darkMode}
-        onToggleDark={() => setDarkMode(d => !d)}
-      />
+      <Footer />
     </div>
   )
 }
